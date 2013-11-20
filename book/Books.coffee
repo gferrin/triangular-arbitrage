@@ -62,7 +62,7 @@ module.exports = class Book extends events.EventEmitter
 
   trade: (pair, action, rate, volume) ->
 
-    btce = new BTCE("FIJDJ7UB-AOXVJQH8-SFB2MQGO-9C59H8VE-L8Y1SJNO", "994dde581b6cac4be71b890b22048f55fb779214007ff53041a5f0620a71c3ff",
+    btce = new BTCE("your api key", "your secret",
       ()-> 
         currentNonce++
         fs.writeFile("nonce.json", currentNonce)
