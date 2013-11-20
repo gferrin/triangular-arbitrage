@@ -1,0 +1,18 @@
+{
+  "name": "triangular-arbitrage",
+  "version": "0.0.1",
+  "private": true,
+  "gypfile": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "socket.io-client": "~0.9.11",
+    "socket.io": "~0.9.14",
+    "request": "~2.21.0",
+    "node-gyp": "~0.9.6",
+    "coffee-script": "~1.6.2",
+    "colors": "~0.6.0-1",
+    "btc-e": "0.0.11"
+  }
+}

@@ -1,0 +1,1 @@
+cmd_Release/graph.node := ./gyp-mac-tool flock ./Release/linker.lock g++ -shared -Wl,-search_paths_first -mmacosx-version-min=10.5 -arch x86_64 -L./Release -install_name @rpath/graph.node  -o Release/graph.node Release/obj.target/graph/graph/addon.o Release/obj.target/graph/graph/directed_graph.o Release/obj.target/graph/graph/binding.o -undefined dynamic_lookup
